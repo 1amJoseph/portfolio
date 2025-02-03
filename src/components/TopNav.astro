@@ -1,0 +1,38 @@
+---
+import Arch from "./icons/Arch.astro";
+---
+
+<section
+  class="fixed top-0 left-16 w-full bg-slate-50 bg-opacity-0 shadow-md z-50 m-auto pt-2 flex justify-between max-w-[90%] items-center"
+>
+  <section>
+    <img src="/pfp.jpeg" alt="Profile photo" class="size-14 rounded-full" />
+  </section>
+  <section class="items-center flex ml-40">
+    <p class="font-bold">Arch</p>
+    <Arch class="size-12" />
+    <p class="font-bold">Linux</p>
+  </section>
+  <nav>
+    <ul class="flex gap-x-8">
+      <li>
+        <a href="/" class="text-slate-50 text-opacity-90 hover:text-opacity-100"
+          >home</a
+        >
+      </li>
+      <li>
+        <a
+          href="/about"
+          class="text-slate-50 text-opacity-90 hover:text-opacity-100">about</a
+        >
+      </li>
+      <li>
+        <a
+          href="/contact"
+          class="text-slate-50 text-opacity-90 hover:text-opacity-100"
+          >Contact</a
+        >
+      </li>
+    </ul>
+  </nav>
+</section>
